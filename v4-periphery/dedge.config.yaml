@@ -1,0 +1,9 @@
+config:
+  framework: "hardhat" 
+  framework_version: "2.6.4" 
+  node_version: "18" 
+  package_manager: "yarn"
+
+tasks:
+  install-dependencies:
+    - yarn install
